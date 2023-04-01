@@ -7,6 +7,7 @@
 // 제한사항
 // 0 < num1 ≤ 100
 // 0 < num2 ≤ 100
+
 function solution(num1, num2) {
     var answer = (num1 / num2) * 1000;
     return parseInt(answer);
