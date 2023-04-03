@@ -14,8 +14,8 @@ function solution(denum1, numer1, denum2, numer2) {
     
     answer = [a / gcd_value, b / gcd_value];
     return answer;
-  }
-  
-  function gcd(i, j) {
+}
+
+function gcd(i, j) {
     return i % j === 0 ? j : gcd(j, i % j);
-  }
+}
