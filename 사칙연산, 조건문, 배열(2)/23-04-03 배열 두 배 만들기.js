@@ -8,3 +8,12 @@
 // 10,000 ≤ numbers의 원소 ≤ 10,000
 // 1 ≤ numbers의 길이 ≤ 1,000
 
+function solution(numbers) {
+    let answer = numbers.map((el) => el * 2);
+    // let answer = numbers.map((el) => doubling(el));
+    return answer;
+}
+
+function doubling(num) {
+    return num *= 2;
+}
